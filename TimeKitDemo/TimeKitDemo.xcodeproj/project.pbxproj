@@ -1,0 +1,381 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A298D6624CB99FB1DDE6ED1 /* Pods_TimeKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3F03A040D2F85E32F55771 /* Pods_TimeKitDemo.framework */; };
+		C08266B41D4FF6DD003624B1 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = C08266B31D4FF6DD003624B1 /* main.js */; };
+		C0ED80701D4FE721001D932F /* timekit-sdk.js in Resources */ = {isa = PBXBuildFile; fileRef = C0ED806F1D4FE721001D932F /* timekit-sdk.js */; };
+		C0F31F151D4FC37B0036C0DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31F141D4FC37B0036C0DD /* AppDelegate.swift */; };
+		C0F31F171D4FC37B0036C0DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F31F161D4FC37B0036C0DD /* ViewController.swift */; };
+		C0F31F1A1D4FC37B0036C0DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F31F181D4FC37B0036C0DD /* Main.storyboard */; };
+		C0F31F1C1D4FC37B0036C0DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0F31F1B1D4FC37B0036C0DD /* Assets.xcassets */; };
+		C0F31F1F1D4FC37B0036C0DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0F31F1D1D4FC37B0036C0DD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		44BFD981D64B534765981220 /* Pods-TimeKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeKitDemo/Pods-TimeKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		C08266B31D4FF6DD003624B1 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		C0ED806F1D4FE721001D932F /* timekit-sdk.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "timekit-sdk.js"; sourceTree = "<group>"; };
+		C0F31F111D4FC37B0036C0DD /* TimeKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0F31F141D4FC37B0036C0DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0F31F161D4FC37B0036C0DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0F31F191D4FC37B0036C0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C0F31F1B1D4FC37B0036C0DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0F31F1E1D4FC37B0036C0DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0F31F201D4FC37B0036C0DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3F03A040D2F85E32F55771 /* Pods_TimeKitDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeKitDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE005055F4FCF218C9D452A0 /* Pods-TimeKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeKitDemo/Pods-TimeKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C0F31F0E1D4FC37B0036C0DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A298D6624CB99FB1DDE6ED1 /* Pods_TimeKitDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE6C32F78BBD39DB5FD7D090 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3F03A040D2F85E32F55771 /* Pods_TimeKitDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0F31F081D4FC37A0036C0DD = {
+			isa = PBXGroup;
+			children = (
+				C0F31F131D4FC37B0036C0DD /* TimeKitDemo */,
+				C0F31F121D4FC37B0036C0DD /* Products */,
+				FFB9B9678DC3D84C19C0AFE8 /* Pods */,
+				AE6C32F78BBD39DB5FD7D090 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C0F31F121D4FC37B0036C0DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C0F31F111D4FC37B0036C0DD /* TimeKitDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0F31F131D4FC37B0036C0DD /* TimeKitDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C0F31F141D4FC37B0036C0DD /* AppDelegate.swift */,
+				C0F31F161D4FC37B0036C0DD /* ViewController.swift */,
+				C0F31F181D4FC37B0036C0DD /* Main.storyboard */,
+				C0F31F1B1D4FC37B0036C0DD /* Assets.xcassets */,
+				C0F31F1D1D4FC37B0036C0DD /* LaunchScreen.storyboard */,
+				C0F31F201D4FC37B0036C0DD /* Info.plist */,
+				C08266B31D4FF6DD003624B1 /* main.js */,
+				C0ED806F1D4FE721001D932F /* timekit-sdk.js */,
+			);
+			path = TimeKitDemo;
+			sourceTree = "<group>";
+		};
+		FFB9B9678DC3D84C19C0AFE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE005055F4FCF218C9D452A0 /* Pods-TimeKitDemo.debug.xcconfig */,
+				44BFD981D64B534765981220 /* Pods-TimeKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C0F31F101D4FC37B0036C0DD /* TimeKitDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0F31F231D4FC37B0036C0DD /* Build configuration list for PBXNativeTarget "TimeKitDemo" */;
+			buildPhases = (
+				F6828D59FABC4B09F8B50A39 /* [CP] Check Pods Manifest.lock */,
+				C0F31F0D1D4FC37B0036C0DD /* Sources */,
+				C0F31F0E1D4FC37B0036C0DD /* Frameworks */,
+				C0F31F0F1D4FC37B0036C0DD /* Resources */,
+				DE9421319DD678351C9E2E0E /* [CP] Embed Pods Frameworks */,
+				D809011149AE6F4CCEE10077 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeKitDemo;
+			productName = TimeKitDemo;
+			productReference = C0F31F111D4FC37B0036C0DD /* TimeKitDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C0F31F091D4FC37A0036C0DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Gelei Chen";
+				TargetAttributes = {
+					C0F31F101D4FC37B0036C0DD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = C0F31F0C1D4FC37A0036C0DD /* Build configuration list for PBXProject "TimeKitDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C0F31F081D4FC37A0036C0DD;
+			productRefGroup = C0F31F121D4FC37B0036C0DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C0F31F101D4FC37B0036C0DD /* TimeKitDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C0F31F0F1D4FC37B0036C0DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F31F1F1D4FC37B0036C0DD /* LaunchScreen.storyboard in Resources */,
+				C0F31F1C1D4FC37B0036C0DD /* Assets.xcassets in Resources */,
+				C0F31F1A1D4FC37B0036C0DD /* Main.storyboard in Resources */,
+				C0ED80701D4FE721001D932F /* timekit-sdk.js in Resources */,
+				C08266B41D4FF6DD003624B1 /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D809011149AE6F4CCEE10077 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeKitDemo/Pods-TimeKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9421319DD678351C9E2E0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeKitDemo/Pods-TimeKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6828D59FABC4B09F8B50A39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C0F31F0D1D4FC37B0036C0DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0F31F171D4FC37B0036C0DD /* ViewController.swift in Sources */,
+				C0F31F151D4FC37B0036C0DD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C0F31F181D4FC37B0036C0DD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F31F191D4FC37B0036C0DD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0F31F1D1D4FC37B0036C0DD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0F31F1E1D4FC37B0036C0DD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C0F31F211D4FC37B0036C0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0F31F221D4FC37B0036C0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0F31F241D4FC37B0036C0DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE005055F4FCF218C9D452A0 /* Pods-TimeKitDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gelei.TimeKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C0F31F251D4FC37B0036C0DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44BFD981D64B534765981220 /* Pods-TimeKitDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TimeKitDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = gelei.TimeKitDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C0F31F0C1D4FC37A0036C0DD /* Build configuration list for PBXProject "TimeKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F31F211D4FC37B0036C0DD /* Debug */,
+				C0F31F221D4FC37B0036C0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0F31F231D4FC37B0036C0DD /* Build configuration list for PBXNativeTarget "TimeKitDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0F31F241D4FC37B0036C0DD /* Debug */,
+				C0F31F251D4FC37B0036C0DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C0F31F091D4FC37A0036C0DD /* Project object */;
+}
